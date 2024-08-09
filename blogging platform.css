@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 2em;
+}
+
+#new-post, #posts {
+    margin-bottom: 2em;
+}
+
+#post-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#post-form label {
+    margin: 0.5em 0 0.2em;
+}
+
+#post-form input, #post-form textarea, #post-form button {
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+#post-list .post {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+}
